@@ -1,10 +1,39 @@
 #influence{
 	background-image: url("https://bnetcmsus-a.akamaihd.net/cms/template_resource/RLMC87YA66JR1552926015954.jpg");
+	background-position: center
 }
 
-.influence.h2{
+#influence h2{
+	margin-top: 5%;
 	font-size: 17px;
 	text-align: right;
 	color: rgb(235, 222, 194);
-	margin-right: 50px;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+
+#influence h1{
+	color: #FFFFFF;
+	text-align: right;
+	font-size: 51px;
+	font-weight: 700;
+	margin-top: 0%;
+}
+
+#influence p{
+	padding-top: 2.5%;
+	font-size: 17px;
+	text-align: right;
+	color: rgb(235, 222, 194);
+}
+
+#influence a{
+	background-color: black;
+	color: rgb(254, 206, 92);
+	border-color: rgb(254, 206, 92);
+	size: 50px;
+}
+
+#avenement{
+	background-image: url("https://bnetcmsus-a.akamaihd.net/cms/template_resource/LU2VY3R9P1L01586989638352.jpg");
+	background-position: center;
 }
