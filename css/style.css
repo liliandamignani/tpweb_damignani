@@ -3,12 +3,19 @@
 	background-position: center
 }
 
+@media (min-width: 1200px) {
+	.container-big{
+		max-width: 1280px;
+	}
+}
+
 #influence h2{
 	margin-top: 5%;
 	font-size: 17px;
 	text-align: right;
 	color: rgb(235, 222, 194);
 	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
 }
 
 #influence h1{
@@ -17,6 +24,7 @@
 	font-size: 51px;
 	font-weight: 700;
 	margin-top: 0%;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
 }
 
 #influence p{
@@ -24,16 +32,77 @@
 	font-size: 17px;
 	text-align: right;
 	color: rgb(235, 222, 194);
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
 }
 
 #influence a{
-	background-color: black;
-	color: rgb(254, 206, 92);
-	border-color: rgb(254, 206, 92);
-	size: 50px;
+	display: inline-block;
+	padding:12px 30px;
+	border: 1px solid #c77e19;
+	color:#ffd36b;
+	text-transform: uppercase;
+	text-decoration: none;	
+	margin-bottom:70px;
 }
+
+#influence a:hover{
+	background-color: rgb(225, 125, 0);
+}
+
+
 
 #avenement{
 	background-image: url("https://bnetcmsus-a.akamaihd.net/cms/template_resource/LU2VY3R9P1L01586989638352.jpg");
 	background-position: center;
+}
+
+#avenement h2{
+	margin-top: 5%;
+	font-size: 17px;
+	text-align: left;
+	color: rgb(235, 222, 194);
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+#avenement h1{
+	color: #FFFFFF;
+	text-align: left;
+	font-size: 51px;
+	font-weight: 700;
+	margin-top: 0%;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+
+#avenement p{
+	padding-top: 2.5%;
+	font-size: 17px;
+	text-align: left;
+	color: rgb(235, 222, 194);
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+
+#avenement a{
+	display: inline-block;
+	padding:12px 30px;
+	border: 1px solid #c77e19;
+	color:#ffd36b;
+	text-transform: uppercase;
+	text-decoration: none;	
+	margin-bottom:70px;
+	background-color: rgb(255, 0, 0, 40%);
+
+}
+
+#avenement a:hover{
+	background-color: rgb(160, 0, 0);
+}
+
+#avenement a.ensavoir{
+	background-color: rgb(0, 0, 0, 40%);
+	margin-left: 20px;
+}
+
+#avenement a:hover.ensavoir{
+	background-color: rgb(225, 125, 0);
 }
